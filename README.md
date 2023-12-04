@@ -3,7 +3,7 @@
 
 ## Cara Setup atau instalasi website
 
-Sebelum instalasi web, pastikan pada komputer anda sudah terinstall GIT, XAMPP (php, mysql, apache) untuk bisa menjalankannya
+Sebelum instalasi web, pastikan pada komputer anda sudah terinstall GIT, XAMPP (php, mysql, apache), dan Composer untuk bisa menjalankannya
 
 - pertama, clone repository ini di menu <>Code halaman github 
 - lakukan git clone dan simpan clone repository di suatu folder penyimpanan local komputer anda
