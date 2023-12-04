@@ -123,7 +123,7 @@
       
       <div class="col-lg-3 col-md-4 col-xs-6">
         <div class="client-logo" data-aos="zoom-in" data-aos-delay="250">
-          <img src="assets/img/berita/news5.webp" class="img-fluid" alt="">
+          <img src="assets/img/berita/news6.webp" class="img-fluid" alt="">
         </div>
       </div>
 
