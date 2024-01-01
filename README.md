@@ -3,7 +3,7 @@
 
 ## Cara Setup atau instalasi website
 
-Sebelum instalasi web, pastikan pada komputer anda sudah terinstall GIT, XAMPP (php, mysql, apache) untuk bisa menjalankannya
+Sebelum instalasi web, pastikan pada komputer anda sudah terinstall GIT, XAMPP (php, mysql, apache), dan Composer untuk bisa menjalankannya
 
 - pertama, clone repository ini di menu <>Code halaman github 
 - lakukan git clone dan simpan clone repository di suatu folder penyimpanan local komputer anda
@@ -11,7 +11,8 @@ Sebelum instalasi web, pastikan pada komputer anda sudah terinstall GIT, XAMPP (
 - jika program sudah dibuka di vscode , buka XAMPP dan aktifkan apache dan mysql
 - kembali ke Vscode, pada file '.env.example' salin file dan paste di lokasi yang sama lalu beri nama baru menjadi '.env'
 - selanjutnya buka terminal, ketikan 'php artisan key:generate' , maka otomatis APP_KEY yang ada di file .env terisi
-- setelah APP_KEY terisi, ketikan 'php artisan serv' pada terminal
+- setelah APP_KEY terisi, buka terminal lalu ketikan 'composer install' agar menginstall package yang dibutuhkan
+- setelah itum jalankan server dengan ketik 'php artisan serv' pada terminal
 - tunggu hingga muncul url localhostnya, lalu salin urlnya dan buka di browser
 - maka website akan tampil dan proses instalasi selesai
 - good luck!
